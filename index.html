@@ -1,322 +1,522 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
-
-<!-- === Header Starts === -->
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Zilong Wang's homepage.">
-  <meta name="keywords" content="Zilong Wang, Haochen, Zhaoxiang Zhang,
-                                 SJTU, CASIA,
-                                 Deep Learning, Computer Vision,
-                                 Segmentation, Semi-Supervised Learning, SSL, Domain Adaptation, UDA, DA">
-  <meta name="author" content="Zilong Wang">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Zilong Wang</title>
+  <title>Zilong Wang | Shanghai Jiao Tong University</title>
 
-  <link rel="stylesheet" type="text/css" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/academicons-1.8.6/css/academicons.min.css">
-  <!-- <link rel="stylesheet" type="text/css" href="assets/bootstrap-4.3.1-dist/css/bootstrap.min.css"> -->
-  <link rel="stylesheet" type="text/css" href="assets/style.css">
-  <link rel="icon" type="image/png" href="assets/figures/icon.png">
-  <link rel="apple-touch-icon" type="image/png" href="assets/figures/large-icon.png">
+  <meta
+    name="description"
+    content="Zilong Wang is a PhD student at Shanghai Jiao Tong University working on multi-armed bandits, matching markets, reinforcement learning, and LLM reasoning."
+  />
+  <meta
+    name="keywords"
+    content="Zilong Wang, Shanghai Jiao Tong University, SJTU, Multi-Armed Bandits, Matching Markets, Reinforcement Learning, LLM Reasoning, Online Learning"
+  />
+  <meta name="author" content="Zilong Wang" />
+
+  <meta property="og:title" content="Zilong Wang" />
+  <meta
+    property="og:description"
+    content="PhD student at Shanghai Jiao Tong University. Research on bandits, matching markets, reinforcement learning, and LLM reasoning."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://zilong-wang719.github.io/" />
+
+  <link rel="stylesheet" href="./style.css" />
 </head>
-<!-- === Header Ends === -->
 
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-<body data-new-gr-c-s-check-loaded="14.1014.0" data-gr-ext-installed="">
+  <!-- =========================
+       Header / Navigation
+  ========================== -->
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a class="brand" href="#top" aria-label="Zilong Wang home">
+        Zilong Wang
+      </a>
 
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#news">News</a>
+        <a href="#selected-publications">Selected Work</a>
+        <a href="#publications">Publications</a>
+        <!-- Put cv.pdf in the repository root, or change this URL. -->
+        <a href="./cv.pdf" target="_blank" rel="noreferrer">CV</a>
+      </nav>
+    </div>
+  </header>
 
-<!-- === Homepage Starts === -->
-<table width="980px" align="center" border="0">
-<tbody>
-<tr>
+  <main id="main-content">
 
+    <!-- =========================
+         Hero
+    ========================== -->
+    <section class="hero" id="top">
+      <div class="container hero-grid">
 
-<td></td>  <!-- Leave one column blank on the left. -->
-<td valign="top">
+        <div class="hero-copy">
+          <p class="eyebrow">PhD Student · Shanghai Jiao Tong University</p>
 
+          <h1>Zilong Wang</h1>
 
-<!-- === Avatar Starts === -->
-<br>
-<table style="font-size: 12pt;" width="100%" border="0">
-<tbody>
-  <tr>
-    <td width="50%">
-      <img width="250" src="./figures/me.png">
-    </td>
+          <p class="hero-lead">
+            I study <strong>sequential decision-making under uncertainty</strong>,
+            with a focus on multi-armed bandits, matching markets,
+            reinforcement learning, and efficient LLM reasoning.
+          </p>
 
-    <td>
-      <div class="col-xs-12 col-sm-8">
-        <h1>
-          <strong>Zilong Wang</strong><br>
-          <small>Shanghai Jiao Tong University</small>
-          </h1>
-            <!-- <p>
-                    No.800 Dongchuan Road<br>
-                    Shanghai Jiao Tong University<br>
-                    Shanghai, 200240, P.R.China
-                </p> -->
-                <p>Email: wangzilong[at]sjtu.edu.cn</code></p>
-                <!-- <p>Email: <code>wangzilong[at]sjtu.edu.cn</code></p> -->
-                <p>Office: Room 1119, No.1 Software Engineering Building, Dongchuan Road 800, Shanghai, China
+          <p class="hero-meta">
+            John Hopcroft Center · Shanghai Jiao Tong University<br />
+            Advised by
+            <a href="https://shuaili8.github.io/" target="_blank" rel="noreferrer">
+              Prof. Shuai Li
+            </a>
+          </p>
+
+          <div class="hero-actions" aria-label="Profile links">
+            <!--
+              A public Google Scholar profile ID could not be independently verified,
+              so this uses a precise Scholar search rather than guessing a profile URL.
+              Replace it with your citations?user=... URL if you have a public profile.
+            -->
+            <a
+              class="button primary"
+              href="https://scholar.google.com/scholar?q=%22Zilong+Wang%22+%22Shanghai+Jiao+Tong+University%22+bandit"
+              target="_blank"
+              rel="noreferrer"
+              title="Google Scholar search for Zilong Wang"
+            >
+              Google Scholar
+            </a>
+
+            <a
+              class="button"
+              href="https://github.com/Zilong-Wang719"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+
+            <a
+              class="button"
+              href="https://orcid.org/0000-0003-0673-0488"
+              target="_blank"
+              rel="noreferrer"
+            >
+              ORCID
+            </a>
+
+            <a class="button" href="./cv.pdf" target="_blank" rel="noreferrer">
+              CV
+            </a>
+
+            <a class="button" href="mailto:wangzilong@sjtu.edu.cn">
+              Email
+            </a>
+          </div>
+
+          <div class="research-tags" aria-label="Research interests">
+            <span>Multi-Armed Bandits</span>
+            <span>Matching Markets</span>
+            <span>Reinforcement Learning</span>
+            <span>LLM Reasoning</span>
+          </div>
+        </div>
+
+        <div class="hero-photo-column">
+          <div class="portrait-frame">
+            <!--
+              Current repository image:
+              ./figures/me.png
+
+              Recommended:
+              compress it to WebP (~150–300 KB) and change src to:
+              ./figures/me.webp
+            -->
+            <img
+              class="portrait"
+              src="./figures/me.png"
+              alt="Portrait of Zilong Wang"
+              width="560"
+              height="700"
+              loading="eager"
+            />
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================
+         About
+    ========================== -->
+    <section class="section" id="about">
+      <div class="container narrow">
+        <div class="section-heading">
+          <p class="section-kicker">About</p>
+          <h2>Research</h2>
+        </div>
+
+        <div class="prose">
+          <p>
+            I am a PhD student in Computer Science at the
+            <a href="https://jhc.sjtu.edu.cn/" target="_blank" rel="noreferrer">
+              John Hopcroft Center
+            </a>,
+            <a href="https://en.sjtu.edu.cn/" target="_blank" rel="noreferrer">
+              Shanghai Jiao Tong University
+            </a>,
+            advised by
+            <a href="https://shuaili8.github.io/" target="_blank" rel="noreferrer">
+              Prof. Shuai Li
+            </a>
+            since September 2023.
+          </p>
+
+          <p>
+            My research focuses on sequential decision-making and learning.
+            I am particularly interested in understanding how learning agents can
+            make efficient decisions under uncertainty, limited feedback, and
+            resource constraints. My current work spans multi-armed bandits,
+            learning in matching markets, reinforcement learning, and efficient
+            reasoning in large language models.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         News
+    ========================== -->
+    <section class="section section-tinted" id="news">
+      <div class="container narrow">
+        <div class="section-heading">
+          <p class="section-kicker">Updates</p>
+          <h2>News</h2>
+        </div>
+
+        <div class="news-list">
+          <article class="news-item">
+            <time datetime="2026">2026</time>
+            <p>
+              <strong>BORA-BUDGET: Learning When to Think Under a Token Budget</strong>
+              was accepted to <strong>EMNLP 2026 Main Conference</strong>.
+            </p>
+          </article>
+
+          <article class="news-item">
+            <time datetime="2026">2026</time>
+            <p>
+              <strong>Anytime-Valid Multi-Objective Online Experimentation with Contrast Certificates</strong>
+              was accepted to <strong>CIKM 2026</strong>.
+            </p>
+          </article>
+
+          <article class="news-item">
+            <time datetime="2026">2026</time>
+            <p>
+              <strong>Bandit Learning for Online Scheduling with Immediate Decision</strong>
+              was accepted to <strong>UAI 2026</strong>.
+            </p>
+          </article>
+
+          <article class="news-item">
+            <time datetime="2025">2025</time>
+            <p>
+              <strong>Optimal Algorithm for Max-Min Fair Bandit</strong>
+              was accepted to <strong>ICML 2025</strong>.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         Selected Publications
+    ========================== -->
+    <section class="section" id="selected-publications">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Highlights</p>
+          <h2>Selected Publications</h2>
+          <p class="section-note">
+            A few representative papers across LLM reasoning, bandits, and matching markets.
+          </p>
+        </div>
+
+        <div class="featured-list">
+
+          <article class="featured-paper">
+            <div class="featured-index">01</div>
+            <div class="featured-content">
+              <div class="paper-topline">
+                <a class="venue" href="https://2026.emnlp.org/" target="_blank" rel="noreferrer">EMNLP 2026</a>
+              </div>
+              <h3>BORA-BUDGET: Learning When to Think Under a Token Budget</h3>
+              <p class="authors">
+                <strong>Zilong Wang</strong>, Kang Pan, Xiao Zhang, Erli Meng, Shuai Li
+              </p>
+              <p class="paper-summary">
+                Efficient LLM reasoning under explicit token constraints.
+              </p>
+              <div class="paper-links">
+                <a class="pub-link" href="https://2026.emnlp.org/" target="_blank" rel="noreferrer">Conference</a>
+                <a class="pub-link" href="https://shuwu5.cn/article/1608.html" target="_blank" rel="noreferrer">Xiaomi Research Highlight</a>
+              </div>
             </div>
-    </td>
-  </tr>
-</tbody>
-</table>
-<!-- === Avatar Ends === -->
+          </article>
 
+          <article class="featured-paper">
+            <div class="featured-index">02</div>
+            <div class="featured-content">
+              <div class="paper-topline">
+                <a class="venue" href="https://icml.cc/Conferences/2025" target="_blank" rel="noreferrer">ICML 2025</a>
+              </div>
+              <h3>Optimal Algorithm for Max-Min Fair Bandit</h3>
+              <p class="authors">
+                <strong>Zilong Wang</strong>, Zhiyao Zhang, Shuai Li
+              </p>
+              <p class="paper-summary">
+                Bandit learning with fairness objectives and sharp theoretical guarantees.
+              </p>
+              <div class="paper-links">
+                <a class="pub-link" href="https://proceedings.mlr.press/v267/wang25eo.html" target="_blank" rel="noreferrer">Paper</a>
+                <a class="pub-link" href="https://raw.githubusercontent.com/mlresearch/v267/main/assets/wang25eo/wang25eo.pdf" target="_blank" rel="noreferrer">PDF</a>
+                <a class="pub-link" href="https://icml.cc/Conferences/2025" target="_blank" rel="noreferrer">Conference</a>
+              </div>
+            </div>
+          </article>
 
-<!-- === Biography Starts === -->
-<br>
-<h2>About me</h2>
-<p style="font-size: 12pt; text-align: justify;">
-I am a third-year PhD student in computer science in <a href="https://jhc.sjtu.edu.cn/">John Hopcroft Center,</a> <a href="https://en.sjtu.edu.cn/">Shanghai Jiao Tong University</a> under the supervision of <a href="https://shuaili8.github.io/">Prof. Shuai Li</a> since Sept. 2023.
-My research interest lies in multi-armed bandits, reinforcement learning and LLM reasoning. Currently, I am interested in the multi-player multi-armed bandits and bandit learning in matching markets.
-</p>
-<!-- === Biography Ends === -->
+          <article class="featured-paper">
+            <div class="featured-index">03</div>
+            <div class="featured-content">
+              <div class="paper-topline">
+                <a class="venue" href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/a730abbcd6cf4a371ca9545db5922442-Abstract-Conference.html" target="_blank" rel="noreferrer">NeurIPS 2024</a>
+              </div>
+              <h3>Improved Analysis for Bandit Learning in Matching Markets</h3>
+              <p class="authors">
+                Fang Kong, <strong>Zilong Wang</strong>, Shuai Li
+              </p>
+              <p class="paper-summary">
+                Improved theoretical analysis for online learning in matching markets.
+              </p>
+              <div class="paper-links">
+                <a class="pub-link" href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/a730abbcd6cf4a371ca9545db5922442-Abstract-Conference.html" target="_blank" rel="noreferrer">Paper</a>
+                <a class="pub-link" href="https://proceedings.nips.cc/paper_files/paper/2024/file/a730abbcd6cf4a371ca9545db5922442-Paper-Conference.pdf" target="_blank" rel="noreferrer">PDF</a>
+                <a class="pub-link" href="https://doi.org/10.52202/079017-2916" target="_blank" rel="noreferrer">DOI</a>
+              </div>
+            </div>
+          </article>
 
+        </div>
+      </div>
+    </section>
 
-<!-- === News Starts === -->
-<br>
-<h2>Research Interests</h2>
-<p style="font-size: 12pt; text-align: justify;">
-  <ul>
-    <li>Multi-armed Bandits</li>
-    <li>Reinforcement Learning</li>
-    <li>LLM Reasoning</li>
+    <!-- =========================
+         Full Publications
+    ========================== -->
+    <section class="section section-tinted" id="publications">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Research Output</p>
+          <h2>Publications</h2>
+          <p class="section-note">
+            Official proceedings, publisher pages, and verified open-access versions are linked below.
+          </p>
+        </div>
 
-  </ul>
-</p>
-  
-<!-- === News Ends === -->
+        <!-- 2026 -->
+        <div class="pub-year-group">
+          <div class="pub-year">2026</div>
 
-<!-- === News Starts === -->
-<br>
-<h2>News</h2>
-<p style="font-size: 12pt; text-align: justify;">
-  <ul>
-    <li>One paper is accepted by <strong>EMNLP 2026</strong> main conference!</li>
+          <div class="pub-list">
+            <article class="publication">
+              <h3>BORA-BUDGET: Learning When to Think Under a Token Budget</h3>
+              <p class="authors">
+                <strong>Zilong Wang</strong>, Kang Pan, Xiao Zhang, Erli Meng, Shuai Li
+              </p>
+              <div class="publication-meta">
+                <a class="venue" href="https://2026.emnlp.org/" target="_blank" rel="noreferrer">EMNLP 2026 · Main Conference</a>
+                <a class="pub-link" href="https://2026.emnlp.org/" target="_blank" rel="noreferrer">Conference</a>
+                <a class="pub-link" href="https://shuwu5.cn/article/1608.html" target="_blank" rel="noreferrer">Research Highlight</a>
+              </div>
+            </article>
 
-  </ul>
-</p>
-  
-<!-- === News Ends === -->
+            <article class="publication">
+              <h3>Anytime-Valid Multi-Objective Online Experimentation with Contrast Certificates</h3>
+              <p class="authors">
+                <strong>Zilong Wang</strong>, Penglei Zhao, Fang Kong, Yong Wang, Shuai Li
+              </p>
+              <div class="publication-meta">
+                <a class="venue" href="https://cikm2026.diag.uniroma1.it/" target="_blank" rel="noreferrer">CIKM 2026</a>
+                <a class="pub-link" href="https://cikm2026.diag.uniroma1.it/" target="_blank" rel="noreferrer">Conference</a>
+              </div>
+            </article>
 
-<!-- === Publication Starts === -->
-<br>
-<h2> Publications </h2>
-<table cellspacing="17">
-<tbody>
+            <article class="publication">
+              <h3>Bandit Learning for Online Scheduling with Immediate Decision</h3>
+              <p class="authors">
+                <strong>Zilong Wang</strong>, Yuhao Zhang, Zhewei Wei, Shuai Li
+              </p>
+              <div class="publication-meta">
+                <a class="venue" href="https://www.auai.org/uai2026/accepted_papers" target="_blank" rel="noreferrer">UAI 2026</a>
+                <a class="pub-link" href="https://proceedings.mlr.press/v337/wang26g.html" target="_blank" rel="noreferrer">Paper</a>
+                <a class="pub-link" href="https://raw.githubusercontent.com/mlresearch/v337/main/assets/wang26g/wang26g.pdf" target="_blank" rel="noreferrer">PDF</a>
+                <a class="pub-link" href="https://openreview.net/forum?id=d2tMZHTFWv" target="_blank" rel="noreferrer">OpenReview</a>
+                <a class="pub-link" href="https://www.auai.org/uai2026/accepted_papers" target="_blank" rel="noreferrer">Conference</a>
+              </div>
+            </article>
+          </div>
+        </div>
 
-<!--     <tr>
-    <td width="25%">
-      <img style="width: 100%; max-height: 180px; object-fit: cover;" src="./CELEBA64.PNG">
-    </td>
-    <td>
-      <strong>Few-shot Diffusion Models Escape the Curse of Dimensionality (NeurIPS 2024)</strong>
+        <!-- 2025 -->
+        <div class="pub-year-group">
+          <div class="pub-year">2025</div>
 
-      <br><small>
-      <strong>Ruofeng Yang</strong>,
-      Bo Jiang,
-      Cheng Chen,
-      Ruinan Jin,
-      Baoxiang Wang,
-      <a href="https://shuaili8.github.io/" target="_blank">Shuai Li</a>
-      <br>
-      [<a href="https://github.com/wanshuiyin" target="_blank">NeruIPS 2024</a>]
-      </small>
+          <div class="pub-list">
+            <article class="publication">
+              <h3>Optimal Algorithm for Max-Min Fair Bandit</h3>
+              <p class="authors">
+                <strong>Zilong Wang</strong>, Zhiyao Zhang, Shuai Li
+              </p>
+              <div class="publication-meta">
+                <a class="venue" href="https://icml.cc/Conferences/2025" target="_blank" rel="noreferrer">ICML 2025</a>
+                <a class="pub-link" href="https://proceedings.mlr.press/v267/wang25eo.html" target="_blank" rel="noreferrer">Paper</a>
+                <a class="pub-link" href="https://raw.githubusercontent.com/mlresearch/v267/main/assets/wang25eo/wang25eo.pdf" target="_blank" rel="noreferrer">PDF</a>
+                <a class="pub-link" href="https://icml.cc/Conferences/2025" target="_blank" rel="noreferrer">Conference</a>
+              </div>
+            </article>
 
-    </td>
-  </tr> -->
-  <tr>
-    <td>
-      <strong>BORA-BUDGET: Learning When to Think Under a Token Budget (EMNLP 2026 main conference)</strong>
+            <article class="publication">
+              <h3>Multi-player Multi-armed Bandits with Delayed Feedback</h3>
+              <p class="authors">
+                Jingqi Fan, <strong>Zilong Wang</strong>, Shuai Li, Linghe Kong
+              </p>
+              <div class="publication-meta">
+                <a class="venue" href="https://2025.ijcai.org/" target="_blank" rel="noreferrer">IJCAI 2025</a>
+                <a class="pub-link" href="https://www.ijcai.org/proceedings/2025/564" target="_blank" rel="noreferrer">Paper</a>
+                <a class="pub-link" href="https://www.ijcai.org/proceedings/2025/0564.pdf" target="_blank" rel="noreferrer">PDF</a>
+                <a class="pub-link" href="https://doi.org/10.24963/ijcai.2025/564" target="_blank" rel="noreferrer">DOI</a>
+              </div>
+            </article>
 
-      <br><small>
-      <strong>Zilong Wang</strong>,
-      Kang Pan,
-      Xiao Zhang,
-      Erli Meng,
-      <a href="https://shuaili8.github.io/" target="_blank">Shuai Li#</a>
-      <br>
+            <article class="publication">
+              <h3>A Survey on Bandit Learning in Matching Markets</h3>
+              <p class="authors">
+                Shuai Li, <strong>Zilong Wang</strong>, Fang Kong
+              </p>
+              <div class="publication-meta">
+                <a class="venue" href="https://2025.ijcai.org/" target="_blank" rel="noreferrer">IJCAI 2025 · Survey Track</a>
+                <a class="pub-link" href="https://www.ijcai.org/proceedings/2025/1171" target="_blank" rel="noreferrer">Paper</a>
+                <a class="pub-link" href="https://www.ijcai.org/proceedings/2025/1171.pdf" target="_blank" rel="noreferrer">PDF</a>
+                <a class="pub-link" href="https://doi.org/10.24963/ijcai.2025/1171" target="_blank" rel="noreferrer">DOI</a>
+              </div>
+            </article>
+          </div>
+        </div>
 
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <strong>Anytime-Valid Multi-Objective Online Experimentation with Contrast Certificates (CIKM 2026)</strong>
+        <!-- 2024 -->
+        <div class="pub-year-group">
+          <div class="pub-year">2024</div>
 
-      <br><small>
-      <strong>Zilong Wang</strong>,
-      Penglei Zhao,
-      Fang Kong,
-      Yong Wang,
-      <a href="https://shuaili8.github.io/" target="_blank">Shuai Li#</a>
-      <br>
+          <div class="pub-list">
+            <article class="publication">
+              <h3>Improved Analysis for Bandit Learning in Matching Markets</h3>
+              <p class="authors">
+                Fang Kong, <strong>Zilong Wang</strong>, Shuai Li
+              </p>
+              <div class="publication-meta">
+                <a class="venue" href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/a730abbcd6cf4a371ca9545db5922442-Abstract-Conference.html" target="_blank" rel="noreferrer">NeurIPS 2024</a>
+                <a class="pub-link" href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/a730abbcd6cf4a371ca9545db5922442-Abstract-Conference.html" target="_blank" rel="noreferrer">Paper</a>
+                <a class="pub-link" href="https://proceedings.nips.cc/paper_files/paper/2024/file/a730abbcd6cf4a371ca9545db5922442-Paper-Conference.pdf" target="_blank" rel="noreferrer">PDF</a>
+                <a class="pub-link" href="https://doi.org/10.52202/079017-2916" target="_blank" rel="noreferrer">DOI</a>
+              </div>
+            </article>
+          </div>
+        </div>
 
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <strong>Bandit Learning for Online Scheduling with Immediate Decision (UAI 2026)</strong>
+        <!-- Journal / Other -->
+        <div class="pub-year-group">
+          <div class="pub-year">Journal</div>
 
-      <br><small>
-      <strong>Zilong Wang</strong>,
-      Yuhao Zhang,
-      Zhewei Wei,
-      <a href="https://shuaili8.github.io/" target="_blank">Shuai Li#</a>
-      <br>
+          <div class="pub-list">
+            <article class="publication">
+              <h3>Optimal Analysis for Bandit Learning in Matching Markets with Serial Dictatorship</h3>
+              <p class="authors">
+                <strong>Zilong Wang</strong>, Shuai Li
+              </p>
+              <div class="publication-meta">
+                <a class="venue" href="https://www.sciencedirect.com/science/article/abs/pii/S0304397524003207" target="_blank" rel="noreferrer">Theoretical Computer Science · 2024</a>
+                <a class="pub-link" href="https://www.sciencedirect.com/science/article/abs/pii/S0304397524003207" target="_blank" rel="noreferrer">Journal</a>
+                <a class="pub-link" href="https://arxiv.org/abs/2512.06758" target="_blank" rel="noreferrer">arXiv</a>
+                <a class="pub-link" href="https://doi.org/10.1016/j.tcs.2024.114703" target="_blank" rel="noreferrer">DOI</a>
+              </div>
+            </article>
+          </div>
+        </div>
 
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <strong>Optimal Algorithm for Max-Min Fair Bandit (ICML 2025)</strong>
+        <!-- 2022 -->
+        <div class="pub-year-group">
+          <div class="pub-year">2022</div>
 
-      <br><small>
-      <strong>Zilong Wang</strong>,
-      Zhiyao Zhang,
-      <a href="https://shuaili8.github.io/" target="_blank">Shuai Li#</a>
-      <br>
+          <div class="pub-list">
+            <article class="publication">
+              <h3>Bandit Learning in Many-to-One Matching Markets</h3>
+              <p class="authors">
+                <strong>Zilong Wang</strong>, Liya Guo, Junming Yin, Shuai Li
+              </p>
+              <div class="publication-meta">
+                <a class="venue" href="https://www.cikmconference.org/2022/" target="_blank" rel="noreferrer">CIKM 2022</a>
+                <a class="pub-link" href="https://openreview.net/pdf?id=rLuT4vG7NsO" target="_blank" rel="noreferrer">Open PDF</a>
+                <a class="pub-link" href="https://doi.org/10.1145/3511808.3557248" target="_blank" rel="noreferrer">DOI</a>
+                <a class="pub-link" href="https://www.cikmconference.org/2022/" target="_blank" rel="noreferrer">Conference</a>
+              </div>
+            </article>
+          </div>
+        </div>
 
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <strong>Multi-player Multi-armed Bandits with Delayed Feedback (IJCAI 2025)</strong>
+      </div>
+    </section>
 
-      <br><small>
-      Jingqi Fan,
-      <strong>Zilong Wang</strong>,
-      <a href="https://shuaili8.github.io/" target="_blank">Shuai Li#</a>,
-      Linghe Kong
-      <br>
+    <!-- =========================
+         Contact
+    ========================== -->
+    <section class="section" id="contact">
+      <div class="container narrow">
+        <div class="contact-card">
+          <div>
+            <p class="section-kicker">Contact</p>
+            <h2>Get in touch</h2>
+            <p>
+              The best way to reach me is by email.
+            </p>
+          </div>
 
-    </td>
-  </tr>
-    <tr>
-    <td>
-      <strong>A Survey on Bandit Learning in Matching Markets (IJCAI 2025 Survey Track)</strong>
+          <div class="contact-links">
+            <a href="mailto:wangzilong@sjtu.edu.cn">
+              wangzilong [at] sjtu.edu.cn
+            </a>
+            <span>Shanghai Jiao Tong University · Shanghai, China</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-      <br><small>
-      <a href="https://shuaili8.github.io/" target="_blank">Shuai Li#</a>,
-      <strong>Zilong Wang</strong>,
-      Fang Kong
-      <br>
+  </main>
 
-    </td>
-  </tr>
-
-    <tr>
-    <td>
-      <strong>Improved Analysis for Bandit Learning in Matching Markets (NeurIPS 2024)</strong>
-
-      <br><small>
-      Fang Kong,
-      <strong>Zilong Wang</strong>,
-      <a href="https://shuaili8.github.io/" target="_blank">Shuai Li#</a>
-      <br>
-
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      <strong>Optimal Analysis for Bandit Learning in Matching Markets with Serial Dictatorship (TCS)</strong>
-
-      <br><small>
-      <strong>Zilong Wang</strong>,
-      <a href="https://shuaili8.github.io/" target="_blank">Shuai Li#</a>
-      <br>
-<!--       [<a href="https://github.com/wanshuiyin/AAAI-2023-The-Learnability-of-Nonlinear-SSL" target="_blank">Code</a>]
-      [<a href="https://arxiv.org/abs/2401.03214#:~:text=Self-supervised%20learning%20%28SSL%29%20has%20empirically%20shown%20its%20data,the%20nonlinear%20neural%20network%20as%20a%20%60%60black%20box%22." target="_blank">AAAI 2023</a>]
-      </small> -->
-
-    </td>
-  </tr>
-
-
-  <tr>
-<!--     <td width="25%">
-      <img style="width: 100%; max-height: 180px; object-fit: cover;" src="./LSUOB-REPS.png">
-    </td> -->
-    <td>
-      <strong>Bandit Learning in Many-to-One Matching Markets (CIKM 2022)</strong>
-
-      <br><small>
-      <strong>Zilong Wang</strong>,
-      Liya Guo,
-      Junming Yin,
-      <a href="https://shuaili8.github.io/" target="_blank">Shuai Li#</a>
-      <br>
-
-    </td>
-  </tr>
-
-</tbody>
-</table>
-<!-- === Publication Ends === -->
-
-<!-- === Professional Services Starts === -->
-<!-- <br>
-<h2>Professional Services</h2>
-<p style="font-size: 12pt; text-align: justify;">
-  Conference Reviewer for
-  <ul>
-    <li>International Conference on Learning Representations (ICLR) 2025</li>
-    <li>Neural Information Processing Systems (NeurIPS) 2024</li>
-    <li>Autonomous Agents and Multiagent Systems (AAMAS) 2022</li>
-  </ul>
-</p> -->
-<!-- === Professional Services Ends === -->
-
-<!-- === Rewards Starts === -->
-<!-- <br>
-<h2>Rewards</h2>
-<p style="font-size: 12pt; text-align: justify;">
-  <ul>
-    <li>Shanghai Jiao Tong University Outstanding Graduates 2022 </li>
-    <li>Outstanding Winner of Mathematical Contest in Modeling (top 0.1%) 2020 </li>
-    <li>Tung Scholarship (Hong Kong's Tung Foundation) 2020 </li>
-    <li>Yang You Scholarship 2019, 2021 </li>
-  </ul>
-</p> -->
-<!-- === Rewards Ends === -->
-
-
-<!-- === Publication Starts === -->
-<!-- <br>
-<h2> Publications </h2>
-<table cellspacing="17">
-<tbody>
-
-
-
-</tbody>
-</table> -->
-<!-- === Publication Ends === -->
-
-
-<!-- === Activity Starts === -->
-  
-<!-- === Activity Starts === -->
-
-
-</td>
-</tr>
-</tbody>
-</table>
-<!-- === Homepage Ends === -->
-
-
-<!-- Visitor Traffic -->
-<script type='text/javascript' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=0&t=tt&d=ZoDwnZl26icJVfh0W6PRaWJC8UIjGa9CyHu2YaqgaRI&co=ffffff&ct=ffffff&cmo=ffffff&cmn=ffffff'></script>
-
-
+  <!-- =========================
+       Footer
+  ========================== -->
+  <footer class="site-footer">
+    <div class="container footer-shell">
+      <p>© 2026 Zilong Wang</p>
+      <p>Last updated: September 23, 2026</p>
+    </div>
+  </footer>
 </body>
 </html>
-
